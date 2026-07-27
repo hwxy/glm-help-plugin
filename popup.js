@@ -1,1 +1,935 @@
-const _0x35ec7a=_0x296a;(function(_0x2ada57,_0x4f890a){const _0x57c549=_0x296a,_0x3d1b04=_0x2ada57();while(!![]){try{const _0x47b018=parseInt(_0x57c549(0x17f))/0x1+parseInt(_0x57c549(0x1ab))/0x2+-parseInt(_0x57c549(0x187))/0x3*(parseInt(_0x57c549(0x232))/0x4)+parseInt(_0x57c549(0x1ff))/0x5+parseInt(_0x57c549(0x221))/0x6*(parseInt(_0x57c549(0x1e3))/0x7)+parseInt(_0x57c549(0x233))/0x8+-parseInt(_0x57c549(0x1dc))/0x9;if(_0x47b018===_0x4f890a)break;else _0x3d1b04['push'](_0x3d1b04['shift']());}catch(_0xf5a44b){_0x3d1b04['push'](_0x3d1b04['shift']());}}}(_0x4777,0xacd15));const REMOTE_URL=_0x35ec7a(0x20c),_0x33aaf8={};_0x33aaf8['HOUR']=0xa,_0x33aaf8['MINUTE']=0x0,_0x33aaf8['SECOND']=0x0;const _0x3ba582={};_0x3ba582['HOUR']=0xa,_0x3ba582[_0x35ec7a(0x194)]=0xf,_0x3ba582['SECOND']=0x0;const _0x11e16f={};_0x11e16f[_0x35ec7a(0x1e0)]='',_0x11e16f[_0x35ec7a(0x182)]='',_0x11e16f[_0x35ec7a(0x207)]='',_0x11e16f[_0x35ec7a(0x1b2)]=_0x35ec7a(0x1f9);const _0x1535f0={};_0x1535f0[_0x35ec7a(0x1e0)]='',_0x1535f0[_0x35ec7a(0x182)]='',_0x1535f0['CODETYPE']=_0x35ec7a(0x196);const _0x3d2a1a={};_0x3d2a1a['HOUR']=0x17,_0x3d2a1a[_0x35ec7a(0x194)]=0x3b,_0x3d2a1a[_0x35ec7a(0x1ef)]=0x3b;const _0x21405d={};_0x21405d[_0x35ec7a(0x235)]=0x0,_0x21405d[_0x35ec7a(0x194)]=0xf,_0x21405d[_0x35ec7a(0x1ef)]=0x0;const _0xabbfdf={};_0xabbfdf[_0x35ec7a(0x193)]=_0x33aaf8,_0xabbfdf[_0x35ec7a(0x21e)]=_0x3ba582,_0xabbfdf[_0x35ec7a(0x217)]=0x1,_0xabbfdf[_0x35ec7a(0x22a)]=![],_0xabbfdf[_0x35ec7a(0x19b)]=0x2,_0xabbfdf[_0x35ec7a(0x1a7)]=_0x11e16f,_0xabbfdf[_0x35ec7a(0x199)]=_0x1535f0,_0xabbfdf[_0x35ec7a(0x229)]=0x2,_0xabbfdf[_0x35ec7a(0x1e1)]=0x3e8,_0xabbfdf[_0x35ec7a(0x1b7)]='',_0xabbfdf[_0x35ec7a(0x1ac)]=_0x35ec7a(0x1bc),_0xabbfdf[_0x35ec7a(0x1f6)]=_0x3d2a1a,_0xabbfdf[_0x35ec7a(0x23a)]=_0x21405d,_0xabbfdf[_0x35ec7a(0x17c)]=_0x35ec7a(0x227);const DEFAULT_CONFIG=_0xabbfdf;document['addEventListener'](_0x35ec7a(0x1f4),()=>{chrome['runtime']['sendMessage']('refreshRemote'),initUI();});const _0x1dec13={};_0x1dec13[_0x35ec7a(0x235)]=0x17,_0x1dec13[_0x35ec7a(0x194)]=0x3b,_0x1dec13[_0x35ec7a(0x1ef)]=0x3b;const _0x4fc8a2={};function _0x4777(){const _0x2dcd97=['y2XVC2u','zw5HyMXLza','ndK3oti0mgTgtMrpDa','y2HLy2TLza','iJ4kicaGicaGicaGicaGphnWyw4+5PE2pc9ZCgfUpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0IC3rHCNqTBwLUDxrLiIbTAw49iJaIig1HEd0IntKIihzHBhvLpsi','iJ4kicaGicaGpceTlsdLVidLP4VML7BPL7qGls0+cIaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGica8zgL2ignSyxnZpsj0AxrSzsi+5BYa5AEl5PE26zE0pc9KAxy+cIaGicaGicaGica8zgL2ignSyxnZpsjKzxnJiJ7LVidLP4VNGRNLH7VORQlPMixMJiNPKQ7NMOtML7BPL7q8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTDMfSDwuIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0IDgLTzs1PBNb1DhmIpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0IC3rHCNqTAg91CIiGBwLUpsiWiIbTyxG9iJiZiIb2ywX1zt0I','y2fUzgLKyxrL','zw5KlxnLy29Uza','iJ4kicaGicaGicaGicaGica8C3bHBJ7NP5i8l3nWyw4+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGpc9KAxy+cGOGicaGicaGidWHls0G54gR5BgX57Ut5P2F5PE26zE0ic0TpGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlwXHyMvSiJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IDgL0BguIpUE7K+ADN+AxTUMxTdWVzgL2pGOGicaGicaGicaGica8zgL2ignSyxnZpsjKzxnJiJ7NGAVLSBhVVjRNU5pMNz/ML7BPL7q8l2rPDJ4kicaGicaGicaGidWVzgL2pGOGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxzHBhvLiJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IDgLTzs1PBNb1DhmIpGOGicaGicaGicaGicaGidXPBNb1Dcb0ExbLpsjUDw1IzxiIigLKpsjODw9ZAgfUlwvUzc1OB3vYiIbTAw49iJaIig1HEd0ImJmIihzHBhvLpsi','B25Py2vJyw5KAwrHDgu','u09gveLe','iIbYzwfKB25SEsbZDhLSzt0IzMXLEdOXo2jHy2TNCM91BMq6i2u4zJbMztTJB2XVCJOJmwe3m2u4o2zVBNqTD2vPz2H0oJyWmdTIB3jKzxi6BM9UztSIic8+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXWCMuGy2XHC3m9iNzHCI12ywWTCMvHzg9UBhKIihn0EwXLpsj3Awr0AdOXmdaLo3bHzgrPBMC6mtbWEdTMB250lwzHBwLSEtONu0yGtw9UBYCSq29UC29SyxmSBw9UB3nWywnLo2zVBNqTC2L6ztOXmxb4o292zxjMBg93oMf1Dg87yMfJA2DYB3vUzdOJzMzMo2jVCMrLCJOXChGGC29SAwqGi2qWzdbKmdTIB3jKzxiTCMfKAxvZoJrWEdTTyxGTAgvPz2H0oJiWmhb4oYi+','CxvLCNLtzwXLy3rVCKfSBa','C3rHCNqTC2vJB25K','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGica8l2rPDJ4kcIaGicaGicaGpceTlsdMNkZLNlbpq1lPHy3NVA4Gls0+cIaGicaGicaGpgrPDIbJBgfZCZ0ICgXHDgzVCM0Ty29UzMLNia','Ahr0Chm6lY9HCgKUAhDHEhKUy24VyxbPl3jLzgLYzwn0lxj1BgvZ','DMfYAwfIBgvZ','iIbZDhLSzt0IyMfJA2DYB3vUzdOGi2u4zJbMztSGyM9YzgvYlwnVBg9YoIaJmwe3m2u4oYi+cIaGicaGicaGica8zgL2ihn0EwXLpsjKAxnWBgf5oMzSzxG7z2fWoJHWEdTHBgLNBI1PDgvTCZPJzw50zxi7BwfYz2LUlwjVDhrVBtO4ChGIpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IDgv4DciGy2XHC3m9iNzHCI1RzxKIihzHBhvLpsi','AhvVC2HHBI1LBMqTAg91CG','A2v5CW','iIbZDhLSzt0ID2LKDgG6idGWChG7iJ4kicaGicaGica8l2rPDJ4kicaGicaGpc9KAxy+cGOGicaGica8is0TioMQJoIVGEEGGEw5S+wpSoMfJEE9RIaTlt4kicaGicaGpgrPDIbJBgfZCZ0ICgXHDgzVCM0TC2vJDgLVBIa','jMfTCdS','lNzHCI1RzxK','AxnbCNjHEq','iJ4kicaGicaGicaGicaGica8C3bHBJ7ML7y8l3nWyw4+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iM51BwjLCIiGAwq9iMH1B3nOyw4Tzw5Klw1PBNv0zsiGBwLUpsiWiIbTyxG9iJu5iIb2ywX1zt0I','EwLUzY1JB2rLDhLWzq','sxndB2XSzwn0q29KzuXLBMD0Aa','Aw5WDxrBBMfTzt0ICgXHDgzVCM0IxtPJAgvJA2vK','Bg9JywXVy3iTy29UzMLN','CMvMCMvZAfj1BgvZ','EMHPChuTy29UzMLN','iJ4kicaGicaGicaGicaGphnWyw4+5yIgpc9ZCgfUpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0Izw5KlxnLy29UzciGBwLUpsiWiIbTyxG9iJu5iIb2ywX1zt0I','AgLKzgvU','rw5KvgLTzq','iJ4kicaGicaGicaGicaGphnWyw4+56Espc9ZCgfUpGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGpc9KAxy+cIaGicaGidWVzgL2pGOkicaGicaGpceTlsdOH6RLIQJPQOZOR4hLVidLHBmGls0+cIaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGica8zgL2ignSyxnZpsj0AxrSzsi+6iEQ5yQO54k55yE76AQm6k+b56cbpc9KAxy+cIaGicaGicaGica8zgL2ignSyxnZpsjKzxnJiJ7LVidLKk/LKi7LSiBOH6RLIQJLPitNKiBPQOZOR4hNOie8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTDMfSDwuIpGOGicaGicaGicaGpgXHyMvSignSyxnZpsj0B2DNBguTC3DPDgnOiJ4kicaGicaGicaGicaGpgLUChv0ihr5Cgu9iMnOzwnRyM94iIbPzd0Iyxv0BY12zxjPzNKIia','AwnLu2vYDMvYCW','nJm2nLjtqK9jDq','EwLUzY1JB25MAwC','iJ4kicaGicaGica8l2rPDJ4kicaGicaGpc9KAxy+cGOGicaGica8is0TiowLL+MKKoMaIEAlQsaTlt4kicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxjVDYi+cIaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlwXHyMvSiJ4kicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7PGiNMI6NLPzFPPja8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMrLC2mIpUEcUEwhU+IUOUMyHEAxTUs9V+EuQoEAHowLL+MKKoEXU+wEIZWVzgL2pGOGicaGicaGidWVzgL2pGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGica8zgL2ignSyxnZpsjYywrPBY1NCM91Cci+cIaGicaGicaGicaGidXSywjLBcbJBgfZCZ0ICMfKAw8TBgfIzwWIpGOGicaGicaGicaGicaGidXPBNb1Dcb0ExbLpsjYywrPBYiGBMfTzt0ICgXHBIiGDMfSDwu9iJeIia','iZfHnZnLoa','cIaGicaGicaGpgrPDIbJBgfZCZ0IDMfYlxjVDYiGzgf0ys1RzxK9iG','iJ4kicaGicaGicaGicaGica8C3bHBJ7NP5i8l3nWyw4+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGpc9KAxy+cGOGicaGicaGidWHls0G54gR5BgX6ycj5OUP5zMOic0TpGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlwXHyMvSiJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IDgL0BguIpUMaIEAlQEwzQdWVzgL2pGOGicaGicaGicaGica8zgL2ignSyxnZpsjKzxnJiJ7NGAVLSBhPOBxPNAlLHypNTkaGq1ntioMaIEAlQEwzQdWVzgL2pGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTDMfSDwuIpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IDgv4DciGAwq9iMH1B3nOyw4TC2vSzwn0B3iIihzHBhvLpsi','lM9WzxjHDgLVBNmTyK1TC2zkigj1DhrVBJPSyxn0lwnOAwXK','pGOGicaGicaGicaGicaGidXZCgfUpLbYBZWVC3bHBJ4kicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGpgXHyMvSignSyxnZpsjYywrPBY1SywjLBci+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNjHzgLViIbUyw1LpsjWBgfUiIb2ywX1zt0ImYiG','q2XPy2TjBMrLEa','qxv0B1zLCNrPzNLsDw5UAw5N','CgfYC2u','z2v0rwXLBwvUDej5swq','pGOGicaGicaGicaGica8C3bHBIbJBgfZCZ0IDg9Nz2XLlxnSAwrLCIi+pc9ZCgfUpGOGicaGicaGicaGpc9SywjLBd4kicaGicaGica8l2rPDJ4kicaGicaGpc9KAxy+cGOGicaGica8is0Tios4I+wnLEASOEAvScaTlt4kicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxjVDYi+cIaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlwXHyMvSiJ4kicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7KUiVLJzxMJQxLJ6pMRkhMLBa8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMrLC2mIpUAVJ+ASOEwpKEMaGEs4I+wnLEAoPEwpO+EAHoASOEAvSo+8IdeTmtdVViK8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTDMfSDwuIpGOGicaGicaGicaGpgLUChv0ihr5Cgu9iM51BwjLCIiGAwq9iMnVzguTBgvUz3rOiIbTAw49iJeIig1HEd0ImtaIihzHBhvLpsi','y3vZDg9Tlxj1BgvZlxnLy3rPB24','AhvVC2HHBI1ZzwXLy3rVCG','yMLUz2T1BY1JB2rLDhLWzq','Bg9JywWTAxaTAgLUDa','nfz6AfHuBq','odq4ndu3nKv1sLLuzW','tvLFq09orKLh','se9vuG','C3rVCMfNzq','5Qoa5Rwl5yIW77YA','iIbZDhLSzt0ID2LKDgG6idiWmhb4oYi+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTCM93iIbPzd0IBg9JywWTAxaTCM93iJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlwXHyMvSiJ4kicaGicaGicaGicaGica8zgL2ignSyxnZpsj0AxrSzsi+5PYS5PY65Bga5z+F572rieLqpc9KAxy+cIaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzgvZyYiGAwq9iMXVy2fSlwLWlwHPBNqIpUATO+wCQoAJGoA1IY4UlJWVzgL2pGOGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOGicaGica8l2rPDJ4kicaGicaGpc9KAxy+pceTlsaVEMHPChuTy29UzMLNic0TpGOkicaGicaGpceTlsdNGAVLSBhPHy3NVA4Gls0+cIaGicaGidXKAxyGAwq9iMH1B3nOyw4Ty29UzMLNiIbJBgfZCZ0I','C3rYAw5N','shvVC2HHBKvUzfrPBwu','C2v0','6k+35AgR5yAz5A6m5Pw055Qe5yY56ywn6kEe5yIz5zkm6yEn5A6A5zcr5zYW5z2a','mti3lJaUmc4X','DMfYxW','iJ4kicaGicaGicaGicaGphnWyw4+5yIgpc9ZCgfUpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0IC3rHCNqTC2vJB25KiIbTAw49iJaIig1HEd0IntKIihzHBhvLpsi','shvVC2HHBLnLBgvJDg9Y','DMfYAwfIBgvZlxnLy3rPB24','iJ7LIkdPMAq8l2j1DhrVBJ4kicaGicaGica8l2rPDJ4kicaGicaGpc9KAxy+cIaGica','oti5nJK5AuLxCLbM','y29SB3i','iIbPzd0IEwLUzY1JB25MAwCIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxjVDYi+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IDgL0BguIpUI2HEE6P+M5SoI0PUwpTZWVzgL2pGOGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxzHBhvLiJ4kicaGicaGicaGicaGica8Aw5WDxqGDhLWzt0IDgv4DciGAwq9iNLPBMCTDxnLCIiGDMfSDwu9iG','ueftuZi','zM9YrwfJAa','iJ4kicaGicaGicaGicaGphnWyw4+5PE2pc9ZCgfUpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0Izw5Klw1PBNv0zsiGBwLUpsiWiIbTyxG9iJu5iIb2ywX1zt0I','A2v5','AhvVC2HHBI1ZDgfYDc1ZzwnVBMq','mZKWndu4ngXryLzmyG','yMLUz2T1BY1JB25MAwC','Bg9JywW','5PYQ6io96iEQ5yQO6i635y+w77Yi5Rwp6kEi5zMO5y+V6io95BYa5zcV5lQgig1etLmG5RE35REg77Yj77Ym6k+35OMl5yQO5P+L55Yl5PYS5PY6ieLq','BMv3lxj1BguTzNjVBq','ywrKrxzLBNrmAxn0zw5LCG','CgXHDgzVCM0TC2vJDgLVBG','Aw5WDxrBBMfTzt0ICgXHBIjDoMnOzwnRzwq','y2XPy2S','mty5lJi1nc4','zNjVBq','z2v0','u3rHCNruAw1L','tuLovvrf','CgXHDgzVCM1dAgfUz2vK','mtmYna','DhjPBq','BwLU','qMLUz0T1BW','pGOGicaGicaGicaGicaGidXZCgfUpKXPDgu8l3nWyw4+cIaGicaGicaGicaGidWVBgfIzwW+cIaGicaGicaGicaGidXSywjLBcbJBgfZCZ0ICMfKAw8TBgfIzwWIpGOGicaGicaGicaGicaGidXPBNb1Dcb0ExbLpsjYywrPBYiGBMfTzt0ICgXHBIiGDMfSDwu9iJiIia','DxnLuxjdB2rLvhLWzq','C2v0tg9JywXezxnJCMLWDgLVBG','y3vZDg9TuNvSzxm','iJ4kicaGicaGicaGicaGphnWyw4+56Espc9ZCgfUpGOGicaGicaGicaGpc9KAxy+cIaGicaGicaGpc9KAxy+cIaGicaGidWVzgL2pGOkicaGicaGpceTlsdNU5pMNz/ML7BPL7qGls0+cIaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGica8zgL2ignSyxnZpsj0AxrSzsi+57Ut5P2F5PE26zE0pc9KAxy+cIaGicaGicaGica8zgL2ignSyxnZpsjKzxnJiJ7PQOZOR4hNOihOH6RLIQJMIzpLVidNMOtNU5pMNz/ML7BPL7q8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTDMfSDwuIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0IDgLTzs1PBNb1DhmIpGOGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0Izw5KlwHVDxiIig1PBJ0ImciGBwf4psiYmYiGDMfSDwu9iG','iJ4kicaGicaGica8is0TioEbQ+wXSEw8GowNI+AxTUMxTcaTlt4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTCM93iJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7LVidLP4VML7BPL7q8l2rPDJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzgvZyYi+54gR5BgX77YA5BYa5AEl5PE26zE0pc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPBwuTAw5WDxrZiJ4kicaGicaGicaGicaGica8Aw5WDxqGDhLWzt0IBNvTyMvYiIbPzd0IAhvVC2HHBI1ZDgfYDc1OB3vYiIbTAw49iJaIig1HEd0ImJmIihzHBhvLpsi','AhvVC2HHBI1ZDgfYDc1OB3vY','rw50zxi','AhvVC2HHBI1LBMqTBwLUDxrL','Bg9JywXVy3iTDxjS','BMv3lxj1BguTDg8','AhvVC2HHBG','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7OVA/KU7yGsuq8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNrLEhqIigLKpsj5Aw5NlxnVzNrPzciGDMfSDwu9iG','wuLorW','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7NOihNSBVLNOS8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNrLEhqIigLKpsj5Aw5NlwnVzgv0ExbLiIb2ywX1zt0I','AM9PBG','CMvTB3zL','mJC5otK2mMPTt25rBG','ugXHDgzVCM0','C3bSAwnL','CNvUDgLTzq','iIbPzd0IBg9JywXVy3iTy29UzMLNiJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7MNkZLNlbpq1lLNldLNya8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNrLEhqIigLKpsjSB2nHBg9JCI11CMWIihzHBhvLpsi','ywn0AxzL','oJK4otGVy2XPy2S','q09ervrzueu','iIbPzd0ICgXHDgzVCM0TC2vJDgLVBIi+cIaGicaGicaGpgrPDIbJBgfZCZ0ICgXHDgzVCM0TDgL0BguIpUMQJoIVGEEGGEw5S+wpSoMfJEE9RJWVzgL2pGOkicaGicaGica8is0Tiow5S+wpSoMaIEAlQsaTlt4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTCM93iIbZDhLSzt0IyM9YzgvYlwjVDhrVBtOGBM9UztSGCgfKzgLUzY1IB3r0B206ida7iJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1SywjLBci+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7PQOZOR4hNOihLUBpLJ7a8l2rPDJ4kicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzgvZyYi+6ycj5OUP6iEQ5yQO6AQm6k+b5l2/55sO55Qe5PYn5yQH5BMZ5y+Wpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGidXZzwXLy3qGAwq9iNbSyxrMB3jTlxnLBgvJDciGy2XHC3m9iNbSyxrMB3jTlxnLBgvJDci+cIaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0ImsiG','C2f2zs1JB25MAwC','cIaGicaGidXKAxyGy2XHC3m9iNzHCI1YB3CIigrHDgeTAw5KzxG9iG','pgrPDIbJBgfZCZ0Izw1WDhKIpUAAGUAxOoIhQUwUMUs5IEINHowiMtWVzgL2pG','Bg9JywXpy3i','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGica8l2rPDJ4kcIaGicaGicaGpceTlsdLHRdMI5pPHy3NVA4Gls0+cIaGicaGicaGpgrPDIbJBgfZCZ0ICgXHDgzVCM0Ty29UzMLNia','Aw5Uzxjive1m','yMfJA2DYB3vUza','BwfW','EMHPChu','C3bSAxq','pUwgSoAlKZWVB3b0Aw9UpGOGicaGicaGicaGicaGidXVChrPB24GDMfSDwu9iJmIia','zw5Klw1PBNv0zq','C3rHCNrZv2L0Aa','pgjYpUwpGUIaG+wCSowDGo+8MMH0DhbZoI8V','C3r5Bgu','iIbZDhLSzt0ID2LKDgG6idi4mhb4oYb0zxH0lwfSAwDUoIbSzwz0oYi+cIaGicaGicaGica8l2rPDJ4kicaGicaGica8l2rPDJ4kicaGicaGpc9KAxy+pceTlsaVAhvVC2HHBI1JB25MAwCGls0+cIaGica','Bwf4','yMLUz2T1BY11C2vY','B2jQzwn0','Dgv4DenVBNrLBNq','ywrK','lNzHCI12ywW','y2HHBMDL','y3jLyxrLt2zMzxi','pGOGicaGicaGicaGicaGidXZCgfUpUEbQ+wXStWVC3bHBJ4kicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOGicaGica8l2rPDJ4kcIaGicaGidXKAxyGAwq9iNPOAxb1lwnVBMzPzYiGy2XHC3m9iG','pGOGicaGicaGicaGicaGidXZCgfUpUAzUUIWStWVC3bHBJ4kicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGpgXHyMvSignSyxnZpsjYywrPBY1SywjLBci+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNjHzgLViIbUyw1LpsjWBgf0zM9YBsiGDMfSDwu9iMH1B3nOyw4Iia','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7OTOxNUQFPUBdLR4BNOie8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNbHC3n3B3jKiIbPzd0IEwLUzY1WyxnZiIb2ywX1zt0I','AhvVC2HHBLzHCMLHyMXLCW','DMfSDwu','y29Kzs1Szw5NDgG','ywrKlxj1BguTyNrU','DgvZDa','yxv0BY12zxjPzNK','Aw5WDxrBBMfTzt0ICgXHDgzVCM0Ixq','EwLUzY1WyxnZ','AhvVC2HHBI1JB25MAwC','y2XHC3nmAxn0','y3vZDg9Tlxj1BgvZ','DhLWzq','iJ4kicaGicaGica8zgL2ihn0EwXLpsjKAxnWBgf5oIbMBgv4oYbNyxa6idHWEdSGywXPz24TAxrLBxm6ignLBNrLCJSIpGOGicaGicaGicaGpgrPDIbZDhLSzt0IzMXLEdOGmtSGzM9UDc1Myw1PBhK6ig1VBM9ZCgfJztSGzM9UDc1ZAxPLoIaXmNb4oYb3B3jKlwjYzwfRoIbICMvHAY1HBgW7ignVBg9YoIaJnJy2oYi+cIaGicaGicaGicaGia','mJK5nZq5ntbKEK9cAKe','C2vUze1LC3nHz2u','i2q5mZaYnq','C2vSzwn0zwq','vvnfuG','CxjdB2rLvgLTzu91Da','jMX0oW','nJi5m2DMwwr3tW','pc9WCMu+cIaGicaGicaGpc9KAxy+cIaGicaGicaG','DgfYz2v0','cIaGicaGidWHls0G5BMZ5y+W6ycj5OUPic0TpGOGicaGica8zgL2ignSyxnZpsjJB25MAwCTCM93iJ4kicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGpgrPDIbJBgfZCZ0IDgL0BguIpUw5S+wpSoMaIEAlQtWVzgL2pGOGicaGicaGicaGpgrPDIbJBgfZCZ0IzgvZyYi+5PM66lcX6lwW546W5PYj6yc76l6r77YB54gR5BgX6lwW54US56Ul5OUM5OIQ6yc76l6rpc9KAxy+cIaGicaGicaGpc9KAxy+cIaGicaGicaGpgrPDIbJBgfZCZ0Iy29UzMLNlxzHBhvLiJ4kicaGicaGicaGidXKAxyGy2XHC3m9iNjHzgLVlwDYB3vWiJ4kicaGicaGicaGicaGpgXHyMvSignSyxnZpsjYywrPBY1SywjLBci+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNjHzgLViIbUyw1LpsjWBgf0zM9YBsiGDMfSDwu9iNPOAxb1iIa','iJ4kicaGicaGicaGicaGica8C3bHBJ7LIiy8l3nWyw4+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iM51BwjLCIiGAwq9iMH1B3nOyw4TC3rHCNqTC2vJB25KiIbTAw49iJaIig1HEd0IntKIihzHBhvLpsi','AhvVC2HHBI1LBMqTC2vJB25K','iJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY1YB3CIpGOGicaGicaGicaGica8zgL2ignSyxnZpsjJB25MAwCTBgfIzwWIpGOGicaGicaGicaGicaGidXKAxyGy2XHC3m9iNrPDgXLiJ7LHRdMI5pLR4BNOie8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVBMzPzY12ywX1zsi+cIaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNbHC3n3B3jKiIbPzd0IyMLUz2T1BY1WyxnZiIb2ywX1zt0I','CxvLCNLtzwXLy3rVCG','Bwf0y2G','y2f0y2G','CMvWBgfJzq','lNzHCI1YB3C','u0vdt05e','pUACRowCSe9duJWVB3b0Aw9UpGOGicaGicaGicaGica8l3nLBgvJDd4kicaGicaGicaGidWVzgL2pGOGicaGicaGidWVzgL2pGOkicaGicaGica8is0TioI2HEE6P+M5SoMfJEE9RIaTlt4kicaGicaGica8zgL2ignSyxnZpsjWBgf0zM9YBs1JB25MAwCG','BgvUz3rO','Dg9Nz2XL','yMLUz2T1BY1WyxnZ','re9nq29UDgvUDeXVywrLza','cIaGicaGicaGica8l2rPDJ4kicaGicaGicaGidXIDxr0B24Gy2XHC3m9iMj0BI1KzwWIigrHDgeTAw5KzxG9iG','shvVC2HHBLn0yxj0vgLTzq','CxiTDgLTzw91Da','iJ4kicaGicaGica8zgL2ihn0EwXLpsjKAxnWBgf5oMzSzxG7z2fWoJHWEdTHBgLNBI1PDgvTCZPJzw50zxi7BwfYz2LUlwjVDhrVBtO4ChGIpGOGicaGicaGicaGpgLUChv0ihr5Cgu9iNrLEhqIignSyxnZpsj2yxiTA2v5iIb2ywX1zt0I','otGWma','Aw5WDxq','C3rHCNqTBwLUDxrL','zgf0yxnLDa'];_0x4777=function(){return _0x2dcd97;};return _0x4777();}function _0x296a(_0x197565,_0x4b4605){_0x197565=_0x197565-0x177;const _0x477725=_0x4777();let _0x296ace=_0x477725[_0x197565];if(_0x296a['lWwvXB']===undefined){var _0x6c76ed=function(_0x122c1d){const _0x2474bc='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x33aaf8='',_0x3ba582='';for(let _0x11e16f=0x0,_0x1535f0,_0x3d2a1a,_0x21405d=0x0;_0x3d2a1a=_0x122c1d['charAt'](_0x21405d++);~_0x3d2a1a&&(_0x1535f0=_0x11e16f%0x4?_0x1535f0*0x40+_0x3d2a1a:_0x3d2a1a,_0x11e16f++%0x4)?_0x33aaf8+=String['fromCharCode'](0xff&_0x1535f0>>(-0x2*_0x11e16f&0x6)):0x0){_0x3d2a1a=_0x2474bc['indexOf'](_0x3d2a1a);}for(let _0xabbfdf=0x0,_0x1dec13=_0x33aaf8['length'];_0xabbfdf<_0x1dec13;_0xabbfdf++){_0x3ba582+='%'+('00'+_0x33aaf8['charCodeAt'](_0xabbfdf)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3ba582);};_0x296a['bbKRSH']=_0x6c76ed,_0x296a['hjZcQB']={},_0x296a['lWwvXB']=!![];}const _0xe9e405=_0x477725[0x0],_0x1de80c=_0x197565+_0xe9e405,_0xafc1bf=_0x296a['hjZcQB'][_0x1de80c];return!_0xafc1bf?(_0x296ace=_0x296a['bbKRSH'](_0x296ace),_0x296a['hjZcQB'][_0x1de80c]=_0x296ace):_0x296ace=_0xafc1bf,_0x296ace;}_0x4fc8a2[_0x35ec7a(0x235)]=0x0,_0x4fc8a2['MINUTE']=0xf,_0x4fc8a2['SECOND']=0x0;const _0x15d6a7={};_0x15d6a7[_0x35ec7a(0x1f6)]=_0x1dec13,_0x15d6a7[_0x35ec7a(0x23a)]=_0x4fc8a2,_0x15d6a7[_0x35ec7a(0x17c)]=_0x35ec7a(0x227);const HUOSHAN_DEFAULT_CONFIG=_0x15d6a7;function initUI(){const _0x381702=_0x35ec7a;chrome['storage']['local']['get']([_0x381702(0x20d),'customRules',_0x381702(0x1cf)],_0x30130f=>{const _0x5e55c3=_0x381702;let _0x2f3ec0=_0x30130f['variables']||{},_0x53824d=_0x30130f[_0x5e55c3(0x1cf)]||{};Object[_0x5e55c3(0x210)](_0x2f3ec0)[_0x5e55c3(0x183)](_0x3c06c6=>{const _0x59558d=_0x5e55c3;if(_0x3c06c6[_0x59558d(0x1c0)](_0x59558d(0x17a)))delete _0x2f3ec0[_0x3c06c6];});if(!_0x2f3ec0['MY_CONFIG'])try{typeof _0x2f3ec0[_0x5e55c3(0x234)]==='string'&&(_0x2f3ec0[_0x5e55c3(0x234)]=JSON[_0x5e55c3(0x22b)](_0x2f3ec0[_0x5e55c3(0x234)]));}catch(_0x53ea00){const _0x4ce9c3={...DEFAULT_CONFIG};_0x2f3ec0[_0x5e55c3(0x234)]=_0x4ce9c3;}else{if(typeof _0x2f3ec0['MY_CONFIG']==='string')try{_0x2f3ec0[_0x5e55c3(0x234)]=JSON[_0x5e55c3(0x22b)](_0x2f3ec0['MY_CONFIG']);}catch(_0x4fbf9f){const _0x596333={...DEFAULT_CONFIG};_0x2f3ec0['MY_CONFIG']=_0x596333;}}_0x2f3ec0[_0x5e55c3(0x234)]=mergeConfig(_0x2f3ec0['MY_CONFIG'],DEFAULT_CONFIG);if(typeof _0x53824d[_0x5e55c3(0x234)]===_0x5e55c3(0x239))try{_0x53824d[_0x5e55c3(0x234)]=JSON[_0x5e55c3(0x22b)](_0x53824d[_0x5e55c3(0x234)]);}catch(_0x3b18b9){_0x53824d[_0x5e55c3(0x234)]={};}_0x53824d[_0x5e55c3(0x234)]=mergeConfig(_0x53824d['MY_CONFIG']||{},HUOSHAN_DEFAULT_CONFIG);const _0x1cf125={};_0x1cf125[_0x5e55c3(0x20d)]=_0x2f3ec0,_0x1cf125['huoshanVariables']=_0x53824d,chrome[_0x5e55c3(0x236)][_0x5e55c3(0x189)][_0x5e55c3(0x177)](_0x1cf125,()=>{renderConfigUI(),renderCustomRules(),renderVariables();});});}function mergeConfig(_0x2c58ae,_0x60aaf3){const _0x57e37a=_0x35ec7a,_0x2c71f8={..._0x60aaf3},_0x4782c8=_0x2c71f8;for(const _0x16d8af in _0x2c58ae){_0x2c58ae[_0x16d8af]!==null&&typeof _0x2c58ae[_0x16d8af]===_0x57e37a(0x1c6)&&!Array[_0x57e37a(0x214)](_0x2c58ae[_0x16d8af])?_0x4782c8[_0x16d8af]=mergeConfig(_0x2c58ae[_0x16d8af],_0x60aaf3[_0x16d8af]||{}):_0x4782c8[_0x16d8af]=_0x2c58ae[_0x16d8af];}return _0x4782c8;}function renderConfigUI(){const _0x3485ec=_0x35ec7a;chrome[_0x3485ec(0x236)]['local'][_0x3485ec(0x192)]('variables',_0x6adae3=>{const _0x1c472f=_0x3485ec,_0x5c7656=_0x6adae3[_0x1c472f(0x20d)]?.[_0x1c472f(0x234)]&&typeof _0x6adae3[_0x1c472f(0x20d)][_0x1c472f(0x234)]==='object'?_0x6adae3[_0x1c472f(0x20d)][_0x1c472f(0x234)]:DEFAULT_CONFIG,_0x4d56f7=document[_0x1c472f(0x22c)]('config-ui');_0x4d56f7[_0x1c472f(0x1b9)]=_0x1c472f(0x1e6)+((_0x5c7656[_0x1c472f(0x1ac)]||_0x1c472f(0x1bc))===_0x1c472f(0x1bc)?_0x1c472f(0x200):'')+_0x1c472f(0x1cd)+(_0x5c7656[_0x1c472f(0x1ac)]==='huoshan'?_0x1c472f(0x200):'')+_0x1c472f(0x1cc)+((_0x5c7656['Platform']||_0x1c472f(0x1bc))===_0x1c472f(0x1bc)?'':_0x1c472f(0x21d))+_0x1c472f(0x202)+(_0x5c7656[_0x1c472f(0x193)]?.[_0x1c472f(0x235)]??0xa)+_0x1c472f(0x201)+(_0x5c7656[_0x1c472f(0x193)]?.[_0x1c472f(0x194)]??0x0)+_0x1c472f(0x17b)+(_0x5c7656[_0x1c472f(0x193)]?.[_0x1c472f(0x1ef)]??0x0)+_0x1c472f(0x19e)+(_0x5c7656[_0x1c472f(0x21e)]?.[_0x1c472f(0x235)]??0xa)+_0x1c472f(0x184)+(_0x5c7656['EndTime']?.['MINUTE']??0x5)+_0x1c472f(0x21c)+(_0x5c7656[_0x1c472f(0x21e)]?.[_0x1c472f(0x1ef)]??0x0)+_0x1c472f(0x21f)+(_0x5c7656[_0x1c472f(0x22a)]?_0x1c472f(0x200):'')+_0x1c472f(0x22d)+(_0x5c7656[_0x1c472f(0x217)]??0x1)+_0x1c472f(0x223)+(_0x5c7656[_0x1c472f(0x229)]===0x1?_0x1c472f(0x200):'')+_0x1c472f(0x19a)+(_0x5c7656[_0x1c472f(0x229)]===0x2?_0x1c472f(0x200):'')+_0x1c472f(0x228)+(_0x5c7656[_0x1c472f(0x229)]===0x3?_0x1c472f(0x200):'')+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>Max</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20验证码超时\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-label\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title\x22>验证码超时</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22desc\x22>验证码加载等待时间（毫秒），0表示不等待</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-value\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22qr-timeout\x22\x20min=\x220\x22\x20step=\x22100\x22\x20value=\x22'+(_0x5c7656[_0x1c472f(0x1e1)]??0x3e8)+_0x1c472f(0x211)+(!_0x5c7656[_0x1c472f(0x22a)]?'hidden':'')+_0x1c472f(0x1b3)+(_0x5c7656[_0x1c472f(0x19b)]===0x1?_0x1c472f(0x1df):'')+'>超级鹰</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x222\x22\x20'+(_0x5c7656[_0x1c472f(0x19b)]===0x2?'selected':'')+_0x1c472f(0x1be)+(_0x5c7656[_0x1c472f(0x19b)]===0x3?_0x1c472f(0x1df):'')+_0x1c472f(0x1f0)+(_0x5c7656[_0x1c472f(0x19b)]===0x1?_0x1c472f(0x1b0):'')+_0x1c472f(0x181)+(_0x5c7656[_0x1c472f(0x1a7)]?.[_0x1c472f(0x1e0)]??'')+_0x1c472f(0x1ce)+(_0x5c7656['YING']?.[_0x1c472f(0x182)]??'')+_0x1c472f(0x1a6)+(_0x5c7656[_0x1c472f(0x1a7)]?.['SOFTID']??'')+_0x1c472f(0x1a8)+(_0x5c7656[_0x1c472f(0x1a7)]?.[_0x1c472f(0x1b2)]??_0x1c472f(0x1f9))+_0x1c472f(0x1b8)+(_0x5c7656[_0x1c472f(0x19b)]===0x2?_0x1c472f(0x1b0):'')+'\x22\x20id=\x22bingkuo-config\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-label\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title\x22>冰拓账号</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-value\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bingkuo-user\x22\x20value=\x22'+(_0x5c7656['BingKuo']?.['USER']??'')+_0x1c472f(0x1e9)+(_0x5c7656[_0x1c472f(0x199)]?.['PASS2']??'')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-label\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title\x22>码类型</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22config-value\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bingkuo-codetype\x22\x20value=\x22'+(_0x5c7656['BingKuo']?.[_0x1c472f(0x1b2)]??'1324')+_0x1c472f(0x20b)+(_0x5c7656[_0x1c472f(0x19b)]===0x3?_0x1c472f(0x1b0):'')+_0x1c472f(0x1af)+(_0x5c7656[_0x1c472f(0x1b7)]??'')+_0x1c472f(0x238)+(_0x5c7656['Platform']==='huoshan'?'':'hidden')+_0x1c472f(0x19f)+(_0x5c7656['HuoshanStartTime']?.[_0x1c472f(0x235)]??0x17)+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>时</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22huoshan-start-minute\x22\x20min=\x220\x22\x20max=\x2259\x22\x20value=\x22'+(_0x5c7656['HuoshanStartTime']?.[_0x1c472f(0x194)]??0x3b)+_0x1c472f(0x1e7)+(_0x5c7656[_0x1c472f(0x1f6)]?.[_0x1c472f(0x1ef)]??0x3b)+_0x1c472f(0x205)+(_0x5c7656[_0x1c472f(0x23a)]?.[_0x1c472f(0x235)]??0x0)+_0x1c472f(0x215)+(_0x5c7656[_0x1c472f(0x23a)]?.['MINUTE']??0xf)+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>分</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22huoshan-end-second\x22\x20min=\x220\x22\x20max=\x2259\x22\x20value=\x22'+(_0x5c7656[_0x1c472f(0x23a)]?.[_0x1c472f(0x1ef)]??0x0)+_0x1c472f(0x226)+(_0x5c7656['HuoshanSelector']??_0x1c472f(0x227))+_0x1c472f(0x1c3),bindConfigEvents(),detectLocalIP();});}function detectLocalIP(){const _0x50b12e=_0x35ec7a,_0x3f34fb=document['getElementById'](_0x50b12e(0x231));if(!_0x3f34fb)return;let _0x51fc37=![];const _0x2bbf0f=new Set();let _0x3d1752;try{const _0x2b9d09={};_0x2b9d09[_0x50b12e(0x220)]=[],_0x3d1752=new RTCPeerConnection(_0x2b9d09);}catch(_0x1adc6d){_0x3f34fb[_0x50b12e(0x1c7)]='当前浏览器不支持自动检测，请手动查看本机\x20IP',_0x3f34fb[_0x50b12e(0x1c2)][_0x50b12e(0x180)]=_0x50b12e(0x1de);return;}try{_0x3d1752['createDataChannel']('');}catch(_0xd22639){}const _0x4a18e0=()=>{const _0x247adf=_0x50b12e;if(_0x51fc37)return;_0x51fc37=!![];try{_0x3d1752[_0x247adf(0x1fd)]();}catch(_0x134cdc){}const _0x55cf19=[..._0x2bbf0f]['filter'](_0x59d750=>_0x59d750!==_0x247adf(0x179)&&!_0x59d750[_0x247adf(0x1c0)](_0x247adf(0x190)));_0x55cf19[_0x247adf(0x1f1)]?(_0x3f34fb[_0x247adf(0x1b9)]=_0x247adf(0x237)+_0x55cf19['map'](escapeHtml)[_0x247adf(0x1a9)]('、')+_0x247adf(0x1c1)+escapeHtml(_0x55cf19[0x0])+_0x247adf(0x1b1),_0x3f34fb['style'][_0x247adf(0x180)]='#1a73e8'):(_0x3f34fb[_0x247adf(0x1c7)]=_0x247adf(0x18a),_0x3f34fb[_0x247adf(0x1c2)][_0x247adf(0x180)]=_0x247adf(0x1de));};_0x3d1752[_0x50b12e(0x206)]=_0x2ef135=>{const _0x1c0f93=_0x50b12e;if(!_0x2ef135['candidate']){_0x4a18e0();return;}const _0x5d4668=_0x2ef135[_0x1c0f93(0x203)][_0x1c0f93(0x203)]||'',_0x34acdf=_0x5d4668[_0x1c0f93(0x1bd)](/\s+/);if(_0x34acdf['length']>=0x5){const _0xc2c9c6=_0x34acdf[0x4];/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/[_0x1c0f93(0x1d3)](_0xc2c9c6)&&_0x2bbf0f[_0x1c0f93(0x1c8)](_0xc2c9c6);}},_0x3d1752[_0x50b12e(0x1cb)]()['then'](_0x7feafc=>_0x3d1752[_0x50b12e(0x19c)](_0x7feafc))[_0x50b12e(0x1ec)](_0x4a18e0),setTimeout(_0x4a18e0,0x3e8);}function applyPlatformVisibility(_0x21164e){const _0xd04d2c=_0x35ec7a,_0x159b00=_0x21164e===_0xd04d2c(0x1a5),_0xbd01a=document[_0xd04d2c(0x22c)](_0xd04d2c(0x21b)),_0x350b0f=document[_0xd04d2c(0x22c)](_0xd04d2c(0x1d7)),_0x314e88=document[_0xd04d2c(0x22c)](_0xd04d2c(0x22e)),_0x3d1126=document['getElementById'](_0xd04d2c(0x17d));if(_0xbd01a)_0xbd01a[_0xd04d2c(0x1d8)][_0xd04d2c(0x1f2)](_0xd04d2c(0x21d),_0x159b00);if(_0x350b0f)_0x350b0f[_0xd04d2c(0x1d8)]['toggle'](_0xd04d2c(0x21d),!_0x159b00);if(_0x314e88)_0x314e88[_0xd04d2c(0x1d8)][_0xd04d2c(0x1f2)](_0xd04d2c(0x21d),_0x159b00);if(_0x3d1126)_0x3d1126[_0xd04d2c(0x1d8)][_0xd04d2c(0x1aa)](_0xd04d2c(0x21d));renderVariables();}function bindConfigEvents(){const _0x381ea7=_0x35ec7a,_0x8d2858=document['querySelectorAll'](_0x381ea7(0x1d5));if(_0x8d2858[_0x381ea7(0x1f1)]){_0x8d2858[_0x381ea7(0x183)](_0x164f07=>{const _0x4a727e=_0x381ea7;_0x164f07[_0x4a727e(0x18c)](_0x4a727e(0x1ca),()=>{const _0x316deb=_0x4a727e,_0x463e45=document['querySelector'](_0x316deb(0x218))?.['value'];applyPlatformVisibility(_0x463e45);});});const _0x2918c4=document['querySelector'](_0x381ea7(0x218))?.[_0x381ea7(0x1d0)]||_0x381ea7(0x1bc);applyPlatformVisibility(_0x2918c4);}const _0x3520b6=document[_0x381ea7(0x22c)](_0x381ea7(0x1d4)),_0x2f550f=document[_0x381ea7(0x22c)](_0x381ea7(0x18d));_0x3520b6&&_0x2f550f&&_0x3520b6[_0x381ea7(0x18c)](_0x381ea7(0x1ca),()=>{const _0x265641=_0x381ea7;_0x3520b6[_0x265641(0x200)]?_0x2f550f[_0x265641(0x1d8)][_0x265641(0x1aa)](_0x265641(0x21d)):_0x2f550f[_0x265641(0x1d8)][_0x265641(0x1c8)](_0x265641(0x21d));});const _0x3e8bde=document[_0x381ea7(0x22c)]('platform-select'),_0x5ad086=document[_0x381ea7(0x22c)](_0x381ea7(0x222)),_0x55d5af=document[_0x381ea7(0x22c)](_0x381ea7(0x188)),_0x414ee8=document[_0x381ea7(0x22c)](_0x381ea7(0x219));_0x3e8bde&&_0x3e8bde[_0x381ea7(0x18c)](_0x381ea7(0x1ca),()=>{const _0x50f348=_0x381ea7;if(_0x3e8bde[_0x50f348(0x1d0)]==='1')_0x5ad086[_0x50f348(0x1d8)][_0x50f348(0x1c8)](_0x50f348(0x1b0)),_0x55d5af[_0x50f348(0x1d8)]['remove'](_0x50f348(0x1b0)),_0x414ee8[_0x50f348(0x1d8)][_0x50f348(0x1aa)](_0x50f348(0x1b0));else{if(_0x3e8bde[_0x50f348(0x1d0)]==='2')_0x5ad086[_0x50f348(0x1d8)]['remove'](_0x50f348(0x1b0)),_0x55d5af[_0x50f348(0x1d8)][_0x50f348(0x1c8)](_0x50f348(0x1b0)),_0x414ee8['classList'][_0x50f348(0x1aa)](_0x50f348(0x1b0));else _0x3e8bde['value']==='3'&&(_0x5ad086[_0x50f348(0x1d8)][_0x50f348(0x1aa)](_0x50f348(0x1b0)),_0x55d5af[_0x50f348(0x1d8)]['remove'](_0x50f348(0x1b0)),_0x414ee8['classList']['add'](_0x50f348(0x1b0)));}}),document[_0x381ea7(0x22c)](_0x381ea7(0x1b4))['addEventListener'](_0x381ea7(0x18f),saveConfig),document[_0x381ea7(0x22c)](_0x381ea7(0x1d2))[_0x381ea7(0x18c)](_0x381ea7(0x18f),()=>{const _0x44cdb1=_0x381ea7,_0xcc6635=document[_0x44cdb1(0x22c)]('new-rule-from')['value'][_0x44cdb1(0x197)](),_0x4649c6=document[_0x44cdb1(0x22c)](_0x44cdb1(0x1a4))[_0x44cdb1(0x1d0)][_0x44cdb1(0x197)]();addCustomRule(_0xcc6635,_0x4649c6);}),document[_0x381ea7(0x22c)](_0x381ea7(0x1a4))[_0x381ea7(0x18c)]('keypress',_0x1d495d=>{const _0x3cb8ad=_0x381ea7;if(_0x1d495d['key']===_0x3cb8ad(0x1a1)){const _0x50510d=document[_0x3cb8ad(0x22c)]('new-rule-from')[_0x3cb8ad(0x1d0)][_0x3cb8ad(0x197)](),_0x2731ae=document[_0x3cb8ad(0x22c)](_0x3cb8ad(0x1a4))[_0x3cb8ad(0x1d0)][_0x3cb8ad(0x197)]();addCustomRule(_0x50510d,_0x2731ae);}});}function saveConfig(){const _0x1c9ec9=_0x35ec7a;chrome['storage'][_0x1c9ec9(0x189)][_0x1c9ec9(0x192)](['variables',_0x1c9ec9(0x1cf)],_0x592de4=>{const _0xf3c8ab=_0x1c9ec9,_0x2fc939=_0x592de4[_0xf3c8ab(0x20d)]||{},_0x1da801=_0x592de4[_0xf3c8ab(0x1cf)]||{},_0x414678={'HuoshanStartTime':{'HOUR':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1a0))?.[_0xf3c8ab(0x1d0)])||0x0,'MINUTE':parseInt(document[_0xf3c8ab(0x22c)]('huoshan-start-minute')?.[_0xf3c8ab(0x1d0)])||0x0,'SECOND':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x186))?.[_0xf3c8ab(0x1d0)])||0x0},'HuoshanEndTime':{'HOUR':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x20f))?.['value'])||0x0,'MINUTE':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1a2))?.['value'])||0x0,'SECOND':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1e8))?.[_0xf3c8ab(0x1d0)])||0x0},'HuoshanSelector':document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x22f))?.['value']||''},_0x17c44f={'StartTime':{'HOUR':parseInt(document[_0xf3c8ab(0x22c)]('start-hour')[_0xf3c8ab(0x1d0)])||0x0,'MINUTE':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1fb))['value'])||0x0,'SECOND':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x20a))['value'])||0x0},'EndTime':{'HOUR':parseInt(document[_0xf3c8ab(0x22c)]('end-hour')[_0xf3c8ab(0x1d0)])||0x0,'MINUTE':parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1bf))[_0xf3c8ab(0x1d0)])||0x0,'SECOND':parseInt(document['getElementById'](_0xf3c8ab(0x204))[_0xf3c8ab(0x1d0)])||0x0},'IsCollectCodeLength':Math[_0xf3c8ab(0x198)](0xa,Math[_0xf3c8ab(0x1c4)](0x1,parseInt(document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1d1))['value'])||0x1)),'AutoVertifyRunning':document['getElementById'](_0xf3c8ab(0x1d4))[_0xf3c8ab(0x200)],'useQrCodeType':parseInt(document['getElementById']('platform-select')[_0xf3c8ab(0x1d0)]),'ClickIndex':parseInt(document['querySelector'](_0xf3c8ab(0x18e))?.[_0xf3c8ab(0x1d0)])||0x1,'qrCodeTimeOut':Number(document['getElementById'](_0xf3c8ab(0x1f7))[_0xf3c8ab(0x1d0)])||0x0,'YING':{'USER':document['getElementById']('ying-user')[_0xf3c8ab(0x1d0)],'PASS2':document['getElementById'](_0xf3c8ab(0x1d6))[_0xf3c8ab(0x1d0)],'SOFTID':document[_0xf3c8ab(0x22c)]('ying-softid')[_0xf3c8ab(0x1d0)],'CODETYPE':document['getElementById'](_0xf3c8ab(0x216))[_0xf3c8ab(0x1d0)]},'BingKuo':{'USER':document['getElementById'](_0xf3c8ab(0x1c5))[_0xf3c8ab(0x1d0)],'PASS2':document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x1f3))[_0xf3c8ab(0x1d0)],'CODETYPE':document[_0xf3c8ab(0x22c)](_0xf3c8ab(0x230))[_0xf3c8ab(0x1d0)]},'localOcr':document['getElementById'](_0xf3c8ab(0x1a3))[_0xf3c8ab(0x1d0)],'Platform':document[_0xf3c8ab(0x1ea)](_0xf3c8ab(0x218))?.[_0xf3c8ab(0x1d0)]||_0xf3c8ab(0x1bc),..._0x414678};_0x2fc939['MY_CONFIG']=_0x17c44f,_0x1da801[_0xf3c8ab(0x234)]=_0x414678;const _0x1e62fe={};_0x1e62fe[_0xf3c8ab(0x20d)]=_0x2fc939,_0x1e62fe[_0xf3c8ab(0x1cf)]=_0x1da801,chrome[_0xf3c8ab(0x236)]['local']['set'](_0x1e62fe,()=>{const _0x555230=_0xf3c8ab,_0x547fc0=document[_0x555230(0x22c)](_0x555230(0x1b4)),_0x33db39=_0x547fc0[_0x555230(0x1c7)];_0x547fc0[_0x555230(0x1c7)]='✓\x20已保存',_0x547fc0[_0x555230(0x1c2)][_0x555230(0x1ba)]='#34a853',setTimeout(()=>{const _0x114ef4=_0x555230;_0x547fc0[_0x114ef4(0x1c7)]=_0x33db39,_0x547fc0[_0x114ef4(0x1c2)]['background']=_0x114ef4(0x224);},0x5dc);document['querySelector'](_0x555230(0x218))?.[_0x555230(0x1d0)]==='huoshan'&&renderVariables();try{const _0x5512ea={};_0x5512ea[_0x555230(0x1da)]=_0x555230(0x195),chrome[_0x555230(0x1ae)][_0x555230(0x1dd)](_0x5512ea);}catch(_0x54d08b){}});});}function renderCustomRules(){const _0x5dc443=_0x35ec7a;chrome['storage'][_0x5dc443(0x189)][_0x5dc443(0x192)]('customRules',_0x512675=>{const _0x52ab59=_0x5dc443,_0x251c76=document[_0x52ab59(0x22c)](_0x52ab59(0x1d9)),_0x299e54=_0x512675[_0x52ab59(0x19d)]||[];if(!_0x299e54[_0x52ab59(0x1f1)]){_0x251c76['innerHTML']=_0x52ab59(0x1b6);return;}_0x251c76[_0x52ab59(0x1b9)]=_0x299e54[_0x52ab59(0x1bb)]((_0x3c8f1a,_0xf20471)=>_0x52ab59(0x1b5)+_0xf20471+_0x52ab59(0x1db)+escapeHtml(_0x3c8f1a[_0x52ab59(0x191)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#999;\x22>→</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20font-family:\x20monospace;\x20font-size:\x2012px;\x20word-break:\x20break-all;\x20color:\x20#1a73e8;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+escapeHtml(_0x3c8f1a['to'])+_0x52ab59(0x1f5)+_0xf20471+_0x52ab59(0x17e))[_0x52ab59(0x1a9)](''),_0x251c76[_0x52ab59(0x209)]('.btn-del')[_0x52ab59(0x183)](_0x8cdc72=>{const _0x30f5e3=_0x52ab59;_0x8cdc72['addEventListener'](_0x30f5e3(0x18f),()=>{const _0x2c897b=_0x30f5e3,_0x55d447=parseInt(_0x8cdc72[_0x2c897b(0x1fc)]['index']);deleteCustomRule(_0x55d447);});});});}function addCustomRule(_0x4f3f9a,_0x31e498){const _0x47aace=_0x35ec7a;if(!_0x4f3f9a||!_0x31e498){alert(_0x47aace(0x178));return;}chrome[_0x47aace(0x236)][_0x47aace(0x189)]['get'](_0x47aace(0x19d),_0x4868ba=>{const _0x3e271a=_0x47aace,_0x14d22a=_0x4868ba['customRules']||[],_0x58d2cc={};_0x58d2cc[_0x3e271a(0x191)]=_0x4f3f9a,_0x58d2cc['to']=_0x31e498,_0x58d2cc[_0x3e271a(0x1fe)]=!![],_0x14d22a['push'](_0x58d2cc);const _0x53617c={};_0x53617c[_0x3e271a(0x19d)]=_0x14d22a,chrome[_0x3e271a(0x236)][_0x3e271a(0x189)]['set'](_0x53617c,()=>{const _0x3254f9=_0x3e271a;document[_0x3254f9(0x22c)](_0x3254f9(0x18b))[_0x3254f9(0x1d0)]='',document[_0x3254f9(0x22c)]('new-rule-to')[_0x3254f9(0x1d0)]='',renderCustomRules(),chrome['runtime'][_0x3254f9(0x1dd)](_0x3254f9(0x21a));});});}function deleteCustomRule(_0x56d4f6){const _0x449501=_0x35ec7a;chrome[_0x449501(0x236)]['local']['get']('customRules',_0x190f62=>{const _0x15090c=_0x449501,_0x4880e9=_0x190f62['customRules']||[];_0x4880e9[_0x15090c(0x1ad)](_0x56d4f6,0x1);const _0x1a150c={};_0x1a150c[_0x15090c(0x19d)]=_0x4880e9,chrome[_0x15090c(0x236)]['local'][_0x15090c(0x177)](_0x1a150c,()=>{const _0x50a574=_0x15090c;renderCustomRules(),chrome[_0x50a574(0x1ae)][_0x50a574(0x1dd)](_0x50a574(0x21a));});});}function getVarsStorageKey(){const _0x1dae7a=_0x35ec7a,_0x4fde13=document['querySelector'](_0x1dae7a(0x218))?.[_0x1dae7a(0x1d0)];return _0x4fde13===_0x1dae7a(0x1a5)?_0x1dae7a(0x1cf):_0x1dae7a(0x20d);}function renderVariables(){const _0x5263dc=_0x35ec7a,_0x25c5f7=getVarsStorageKey();chrome[_0x5263dc(0x236)]['local'][_0x5263dc(0x192)](_0x25c5f7,_0x395ecd=>{const _0x4e3d61=_0x5263dc,_0x55adc1=document[_0x4e3d61(0x22c)](_0x4e3d61(0x20d)),_0xfc391d=_0x395ecd[_0x25c5f7]||{},_0x3fa04a=Object[_0x4e3d61(0x210)](_0xfc391d);if(!_0x3fa04a[_0x4e3d61(0x1f1)]){_0x55adc1['innerHTML']='<div\x20class=\x22empty\x22>暂无变量</div>';return;}_0x55adc1[_0x4e3d61(0x1b9)]=_0x3fa04a[_0x4e3d61(0x1bb)](_0x19acca=>{const _0x5aa010=_0x4e3d61,_0x365eba=_0x19acca===_0x5aa010(0x234),_0x59dd47=_0xfc391d[_0x19acca];let _0x8cbd23='';if(_0x59dd47===null||_0x59dd47===undefined)_0x8cbd23='';else typeof _0x59dd47===_0x5aa010(0x239)?_0x8cbd23=_0x59dd47:_0x8cbd23=JSON['stringify'](_0x59dd47,null,0x2);if(_0x365eba)return _0x5aa010(0x225)+escapeHtml(_0x19acca)+_0x5aa010(0x20e)+escapeHtml(_0x19acca)+_0x5aa010(0x208)+escapeHtml(_0x8cbd23)+_0x5aa010(0x1e4);return'\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22var-row\x22\x20data-key=\x22'+escapeHtml(_0x19acca)+_0x5aa010(0x1f8)+escapeHtml(_0x19acca)+'\x22\x20placeholder=\x22变量名\x22\x20style=\x22flex:1\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-del\x22>删除</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20class=\x22var-val\x22\x20placeholder=\x27字符串直接写，对象用\x20JSON\x20格式：{\x22a\x22:1}\x27\x20rows=\x22'+Math[_0x5aa010(0x1c4)](0x2,(_0x8cbd23[_0x5aa010(0x1eb)](/\n/g)||[])['length']+0x1)+'\x22>'+escapeHtml(_0x8cbd23)+'</textarea>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20';})['join'](''),_0x55adc1['querySelectorAll'](_0x4e3d61(0x1ee))[_0x4e3d61(0x183)](_0x4d62d8=>{const _0x3b8dbc=_0x4e3d61,_0x887352=_0x4d62d8[_0x3b8dbc(0x1fc)][_0x3b8dbc(0x185)];if(_0x887352===_0x3b8dbc(0x234))return;_0x4d62d8[_0x3b8dbc(0x1ea)](_0x3b8dbc(0x213))[_0x3b8dbc(0x18c)](_0x3b8dbc(0x1ca),_0x2e38ee=>{const _0x15d89d=_0x3b8dbc,_0x521de3=getVarsStorageKey();chrome[_0x15d89d(0x236)][_0x15d89d(0x189)][_0x15d89d(0x192)](_0x521de3,_0x1f3cd9=>{const _0x3fabc0=_0x15d89d,_0x129273=_0x1f3cd9[_0x521de3]||{},_0x532ffa=_0x2e38ee[_0x3fabc0(0x1e5)][_0x3fabc0(0x1d0)][_0x3fabc0(0x197)]();if(_0x532ffa&&_0x532ffa!==_0x887352){_0x129273[_0x532ffa]=_0x129273[_0x887352],delete _0x129273[_0x887352];const _0x3df3fc={};_0x3df3fc[_0x521de3]=_0x129273,chrome[_0x3fabc0(0x236)]['local'][_0x3fabc0(0x177)](_0x3df3fc,renderVariables);}});}),_0x4d62d8[_0x3b8dbc(0x1ea)](_0x3b8dbc(0x1c9))?.[_0x3b8dbc(0x18c)](_0x3b8dbc(0x1fa),_0x50f308=>{const _0x49ec0d=_0x3b8dbc,_0x43e676=getVarsStorageKey();chrome['storage'][_0x49ec0d(0x189)]['get'](_0x43e676,_0x39fbc9=>{const _0x3efdc8=_0x49ec0d,_0x51cfbe=_0x39fbc9[_0x43e676]||{},_0x16c729=_0x4d62d8[_0x3efdc8(0x1ea)]('.var-key')[_0x3efdc8(0x1d0)][_0x3efdc8(0x197)]();if(_0x16c729){_0x51cfbe[_0x16c729]=_0x50f308[_0x3efdc8(0x1e5)][_0x3efdc8(0x1d0)];if(_0x887352!==_0x16c729)delete _0x51cfbe[_0x887352];const _0x4001f2={};_0x4001f2[_0x43e676]=_0x51cfbe,chrome['storage'][_0x3efdc8(0x189)][_0x3efdc8(0x177)](_0x4001f2);}});}),_0x4d62d8[_0x3b8dbc(0x1ea)]('.btn-del')?.['addEventListener'](_0x3b8dbc(0x18f),()=>{const _0x5fc00d=_0x3b8dbc,_0x197035=getVarsStorageKey();chrome[_0x5fc00d(0x236)]['local'][_0x5fc00d(0x192)](_0x197035,_0x365091=>{const _0x5832a7=_0x5fc00d,_0x4a5015=_0x365091[_0x197035]||{};delete _0x4a5015[_0x887352];const _0x4bbe10={};_0x4bbe10[_0x197035]=_0x4a5015,chrome['storage']['local'][_0x5832a7(0x177)](_0x4bbe10,renderVariables);});});});});}function escapeHtml(_0x493456){const _0x42bffd=_0x35ec7a;if(!_0x493456)return'';return _0x493456[_0x42bffd(0x1ed)](/&/g,_0x42bffd(0x212))[_0x42bffd(0x1ed)](/"/g,'&quot;')[_0x42bffd(0x1ed)](/</g,_0x42bffd(0x1e2))['replace'](/>/g,'&gt;');}
+const REMOTE_URL = 'https://api.hwaxy.cn/api/redirect-rules';
+
+// 默认配置模板
+const DEFAULT_CONFIG = {
+  "StartTime": {
+    "HOUR": 10,
+    "MINUTE": 0,
+    "SECOND": 0
+  },
+  "EndTime": {
+    "HOUR": 10,
+    "MINUTE": 15,
+    "SECOND": 0
+  },
+  "IsCollectCodeLength": 1,
+  "AutoVertifyRunning": false,
+  "useQrCodeType": 2,
+  "YING": {
+    "USER": "",
+    "PASS2": "",
+    "SOFTID": "",
+    "CODETYPE": "9800"
+  },
+  "BingKuo": {
+    "USER": "",
+    "PASS2": "",
+    "CODETYPE": "1324"
+  },
+  "ClickIndex": 2,
+  "CancelDelay": false,
+  "qrCodeTimeOut": 1000,
+  "localOcr": "",
+  "Platform": "zhipu",
+  "HuoshanStartTime": {
+    "HOUR": 23,
+    "MINUTE": 59,
+    "SECOND": 59
+  },
+  "HuoshanEndTime": {
+    "HOUR": 0,
+    "MINUTE": 15,
+    "SECOND": 0
+  },
+  "HuoshanSelector": ".operations-bMmsfJ button:last-child",
+  "BailianStartTime": {
+    "HOUR": 9,
+    "MINUTE": 30,
+    "SECOND": 0
+  },
+  "BailianEndTime": {
+    "HOUR": 10,
+    "MINUTE": 0,
+    "SECOND": 0
+  },
+  "BailianSelector": ".submit-btn-glow"
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  chrome.runtime.sendMessage('refreshRemote');
+  initUI();
+});
+
+// 火山平台默认配置（与智谱完全独立的变量集，存于 storage 'huoshanVariables'）
+const HUOSHAN_DEFAULT_CONFIG = {
+  "HuoshanStartTime": {
+    "HOUR": 23,
+    "MINUTE": 59,
+    "SECOND": 59
+  },
+  "HuoshanEndTime": {
+    "HOUR": 0,
+    "MINUTE": 15,
+    "SECOND": 0
+  },
+  "HuoshanSelector": ".operations-bMmsfJ button:last-child"
+};
+
+// 百炼 Coding Plan 平台默认配置（与智谱/火山完全独立的变量集，存于 storage 'bailianVariables'）
+const BAILIAN_DEFAULT_CONFIG = {
+  "BailianStartTime": {
+    "HOUR": 9,
+    "MINUTE": 30,
+    "SECOND": 0
+  },
+  "BailianEndTime": {
+    "HOUR": 10,
+    "MINUTE": 0,
+    "SECOND": 0
+  },
+  "BailianSelector": ".submit-btn-glow"
+};
+
+function initUI() {
+  chrome.storage.local.get(['variables', 'customRules', 'huoshanVariables', 'bailianVariables'], (data) => {
+    let vars = data.variables || {};
+    let huoshanVars = data.huoshanVariables || {};
+    let bailianVars = data.bailianVariables || {};
+
+    // 清理旧的 var_* 键
+    Object.keys(vars).forEach(k => {
+      if (k.startsWith('var_')) delete vars[k];
+    });
+
+    // 确保默认配置存在
+    if (!vars.MY_CONFIG) {
+      try {
+        // 如果已有值但格式不对，尝试解析
+        if (typeof vars.MY_CONFIG === 'string') {
+          vars.MY_CONFIG = JSON.parse(vars.MY_CONFIG);
+        }
+      } catch (e) {
+        vars.MY_CONFIG = { ...DEFAULT_CONFIG };
+      }
+    } else {
+      // 确保 MY_CONFIG 是对象
+      if (typeof vars.MY_CONFIG === 'string') {
+        try {
+          vars.MY_CONFIG = JSON.parse(vars.MY_CONFIG);
+        } catch (e) {
+          vars.MY_CONFIG = { ...DEFAULT_CONFIG };
+        }
+      }
+    }
+
+    // 合并默认值，防止缺少字段
+    vars.MY_CONFIG = mergeConfig(vars.MY_CONFIG, DEFAULT_CONFIG);
+
+    // 火山独立配置：确保 huoshanVariables.MY_CONFIG 存在且字段齐全
+    if (typeof huoshanVars.MY_CONFIG === 'string') {
+      try { huoshanVars.MY_CONFIG = JSON.parse(huoshanVars.MY_CONFIG); }
+      catch (e) { huoshanVars.MY_CONFIG = {}; }
+    }
+    huoshanVars.MY_CONFIG = mergeConfig(huoshanVars.MY_CONFIG || {}, HUOSHAN_DEFAULT_CONFIG);
+
+    // 百炼独立配置：确保 bailianVariables.MY_CONFIG 存在且字段齐全
+    if (typeof bailianVars.MY_CONFIG === 'string') {
+      try { bailianVars.MY_CONFIG = JSON.parse(bailianVars.MY_CONFIG); }
+      catch (e) { bailianVars.MY_CONFIG = {}; }
+    }
+    bailianVars.MY_CONFIG = mergeConfig(bailianVars.MY_CONFIG || {}, BAILIAN_DEFAULT_CONFIG);
+
+    chrome.storage.local.set({ variables: vars, huoshanVariables: huoshanVars, bailianVariables: bailianVars }, () => {
+      renderConfigUI();
+      renderCustomRules();
+      renderVariables();
+    });
+  });
+}
+
+// 深度合并配置，确保所有字段都存在
+function mergeConfig(current, defaults) {
+  const result = { ...defaults };
+  for (const key in current) {
+    if (current[key] !== null && typeof current[key] === 'object' && !Array.isArray(current[key])) {
+      result[key] = mergeConfig(current[key], defaults[key] || {});
+    } else {
+      result[key] = current[key];
+    }
+  }
+  return result;
+}
+
+// 渲染配置界面
+function renderConfigUI() {
+  chrome.storage.local.get('variables', (data) => {
+    const config = (data.variables?.MY_CONFIG && typeof data.variables.MY_CONFIG === 'object')
+      ? data.variables.MY_CONFIG
+      : DEFAULT_CONFIG;
+
+    const container = document.getElementById('config-ui');
+    container.innerHTML = `
+      <!-- 平台选择 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">平台选择</div>
+          <div class="desc">智谱走现有逻辑；火山/百炼走各自独立拦截逻辑</div>
+        </div>
+        <div class="config-value">
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="platform" value="zhipu" ${(config.Platform || 'zhipu') === 'zhipu' ? 'checked' : ''}>
+              <span>智谱</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="platform" value="huoshan" ${config.Platform === 'huoshan' ? 'checked' : ''}>
+              <span>火山</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="platform" value="bailian" ${config.Platform === 'bailian' ? 'checked' : ''}>
+              <span>百炼 Coding Plan</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div id="zhipu-config" class="${(config.Platform || 'zhipu') === 'zhipu' ? '' : 'hidden'}">
+      <!-- 开始时间 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">开始时间</div>
+          <div class="desc">开始点击订阅按钮的时间</div>
+        </div>
+        <div class="config-value">
+          <div class="time-inputs">
+            <input type="number" id="start-hour" min="0" max="23" value="${config.StartTime?.HOUR ?? 10}">
+            <span>时</span>
+            <input type="number" id="start-minute" min="0" max="59" value="${config.StartTime?.MINUTE ?? 0}">
+            <span>分</span>
+            <input type="number" id="start-second" min="0" max="59" value="${config.StartTime?.SECOND ?? 0}">
+            <span>秒</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 结束时间 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">结束时间</div>
+          <div class="desc">验证码自动打开的结束时间</div>
+        </div>
+        <div class="config-value">
+          <div class="time-inputs">
+            <input type="number" id="end-hour" min="0" max="23" value="${config.EndTime?.HOUR ?? 10}">
+            <span>时</span>
+            <input type="number" id="end-minute" min="0" max="59" value="${config.EndTime?.MINUTE ?? 5}">
+            <span>分</span>
+            <input type="number" id="end-second" min="0" max="59" value="${config.EndTime?.SECOND ?? 0}">
+            <span>秒</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 自动验证开关 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">自动点击验证码</div>
+          <div class="desc">开启后将自动处理验证码</div>
+        </div>
+        <div class="config-value">
+          <label class="toggle-switch">
+            <input type="checkbox" id="auto-verify" ${config.AutoVertifyRunning ? 'checked' : ''}>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- 下单次数 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">下单接口次数</div>
+          <div class="desc">每次发送下单接口的次数（1-10）</div>
+        </div>
+        <div class="config-value">
+          <input type="number" id="code-length" min="1" max="10" value="${config.IsCollectCodeLength ?? 1}">
+        </div>
+      </div>
+
+      <!-- 套餐选择 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">选择套餐</div>
+          <div class="desc">点击订阅时使用的套餐类型</div>
+        </div>
+        <div class="config-value">
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="plan" value="1" ${config.ClickIndex === 1 ? 'checked' : ''}>
+              <span>Lite</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="plan" value="2" ${config.ClickIndex === 2 ? 'checked' : ''}>
+              <span>Pro</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="plan" value="3" ${config.ClickIndex === 3 ? 'checked' : ''}>
+              <span>Max</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- 取消延时 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">取消延时</div>
+          <div class="desc">开启后取消订阅前的延时等待</div>
+        </div>
+        <div class="config-value">
+          <label class="toggle-switch">
+            <input type="checkbox" id="cancel-delay" ${config.CancelDelay ? 'checked' : ''}>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- 验证码超时 -->
+      <div class="config-row">
+        <div class="config-label">
+          <div class="title">验证码超时</div>
+          <div class="desc">验证码加载等待时间（毫秒），0表示不等待</div>
+        </div>
+        <div class="config-value">
+          <input type="number" id="qr-timeout" min="0" step="100" value="${config.qrCodeTimeOut ?? 1000}" style="width: 80px;">
+        </div>
+      </div>
+
+      <!-- 验证码平台配置 -->
+      <div class="platform-section ${!config.AutoVertifyRunning ? 'hidden' : ''}" id="platform-section">
+        <div class="platform-title">验证码平台配置</div>
+
+        <!-- 平台选择 -->
+        <div class="config-row" style="border-bottom: none; padding-bottom: 0;">
+          <div class="config-label">
+            <div class="title">验证码平台</div>
+            <div class="desc">选择自动验证使用的服务平台</div>
+          </div>
+          <div class="config-value">
+            <select id="platform-select" class="platform-select">
+              <option value="1" ${config.useQrCodeType === 1 ? 'selected' : ''}>超级鹰</option>
+              <option value="2" ${config.useQrCodeType === 2 ? 'selected' : ''}>冰拓</option>
+              <option value="3" ${config.useQrCodeType === 3 ? 'selected' : ''}>本地OCR</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 超级鹰配置 -->
+        <div class="platform-config ${config.useQrCodeType === 1 ? 'active' : ''}" id="ying-config">
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">超级鹰账号</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="ying-user" value="${config.YING?.USER ?? ''}">
+            </div>
+          </div>
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">超级鹰密码</div>
+            </div>
+            <div class="config-value">
+              <input type="password" id="ying-pass" value="${config.YING?.PASS2 ?? ''}">
+            </div>
+          </div>
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">软件 ID</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="ying-softid" value="${config.YING?.SOFTID ?? ''}">
+            </div>
+          </div>
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">码类型</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="ying-codetype" value="${config.YING?.CODETYPE ?? '9800'}">
+            </div>
+          </div>
+        </div>
+
+        <!-- 冰拓配置 -->
+        <div class="platform-config ${config.useQrCodeType === 2 ? 'active' : ''}" id="bingkuo-config">
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">冰拓账号</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="bingkuo-user" value="${config.BingKuo?.USER ?? ''}">
+            </div>
+          </div>
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">冰拓密码</div>
+            </div>
+            <div class="config-value">
+              <input type="password" id="bingkuo-pass" value="${config.BingKuo?.PASS2 ?? ''}">
+            </div>
+          </div>
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">码类型</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="bingkuo-codetype" value="${config.BingKuo?.CODETYPE ?? '1324'}">
+            </div>
+          </div>
+        </div>
+
+        <!-- 本地OCR配置 -->
+        <div class="platform-config ${config.useQrCodeType === 3 ? 'active' : ''}" id="localocr-config">
+          <div class="config-row">
+            <div class="config-label">
+              <div class="title">本地OCR地址</div>
+            </div>
+            <div class="config-value">
+              <input type="text" id="localocr-url" value="${config.localOcr ?? ''}" style="width: 200px;">
+            </div>
+          </div>
+          <div class="config-row" id="local-ip-row">
+            <div class="config-label">
+              <div class="title">本机局域网 IP</div>
+              <div class="desc" id="local-ip-hint">正在检测...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div><!-- /zhipu-config -->
+
+      <!-- 火山配置 -->
+      <div id="huoshan-config" class="${config.Platform === 'huoshan' ? '' : 'hidden'}">
+        <!-- 火山开始时间 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">开始时间</div>
+            <div class="desc">火山：开始时间</div>
+          </div>
+          <div class="config-value">
+            <div class="time-inputs">
+              <input type="number" id="huoshan-start-hour" min="0" max="23" value="${config.HuoshanStartTime?.HOUR ?? 23}">
+              <span>时</span>
+              <input type="number" id="huoshan-start-minute" min="0" max="59" value="${config.HuoshanStartTime?.MINUTE ?? 59}">
+              <span>分</span>
+              <input type="number" id="huoshan-start-second" min="0" max="59" value="${config.HuoshanStartTime?.SECOND ?? 59}">
+              <span>秒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 火山结束时间 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">结束时间</div>
+            <div class="desc">火山：结束时间</div>
+          </div>
+          <div class="config-value">
+            <div class="time-inputs">
+              <input type="number" id="huoshan-end-hour" min="0" max="23" value="${config.HuoshanEndTime?.HOUR ?? 0}">
+              <span>时</span>
+              <input type="number" id="huoshan-end-minute" min="0" max="59" value="${config.HuoshanEndTime?.MINUTE ?? 15}">
+              <span>分</span>
+              <input type="number" id="huoshan-end-second" min="0" max="59" value="${config.HuoshanEndTime?.SECOND ?? 0}">
+              <span>秒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 火山选择器 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">选择器</div>
+            <div class="desc">火山页面元素 CSS 选择器</div>
+          </div>
+          <div class="config-value">
+            <input type="text" id="huoshan-selector" value="${config.HuoshanSelector ?? '.operations-bMmsfJ button:last-child'}" style="width: 280px; text-align: left;">
+          </div>
+        </div>
+      </div><!-- /huoshan-config -->
+
+      <!-- 百炼配置 -->
+      <div id="bailian-config" class="${config.Platform === 'bailian' ? '' : 'hidden'}">
+        <!-- 百炼开始时间 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">开始时间</div>
+            <div class="desc">百炼：开始时间</div>
+          </div>
+          <div class="config-value">
+            <div class="time-inputs">
+              <input type="number" id="bailian-start-hour" min="0" max="23" value="${config.BailianStartTime?.HOUR ?? 9}">
+              <span>时</span>
+              <input type="number" id="bailian-start-minute" min="0" max="59" value="${config.BailianStartTime?.MINUTE ?? 30}">
+              <span>分</span>
+              <input type="number" id="bailian-start-second" min="0" max="59" value="${config.BailianStartTime?.SECOND ?? 0}">
+              <span>秒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 百炼结束时间 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">结束时间</div>
+            <div class="desc">百炼：结束时间</div>
+          </div>
+          <div class="config-value">
+            <div class="time-inputs">
+              <input type="number" id="bailian-end-hour" min="0" max="23" value="${config.BailianEndTime?.HOUR ?? 10}">
+              <span>时</span>
+              <input type="number" id="bailian-end-minute" min="0" max="59" value="${config.BailianEndTime?.MINUTE ?? 0}">
+              <span>分</span>
+              <input type="number" id="bailian-end-second" min="0" max="59" value="${config.BailianEndTime?.SECOND ?? 0}">
+              <span>秒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 百炼选择器 -->
+        <div class="config-row">
+          <div class="config-label">
+            <div class="title">选择器</div>
+            <div class="desc">百炼页面元素 CSS 选择器</div>
+          </div>
+          <div class="config-value">
+            <input type="text" id="bailian-selector" value="${config.BailianSelector ?? '.submit-btn-glow'}" style="width: 280px; text-align: left;">
+          </div>
+        </div>
+      </div><!-- /bailian-config -->
+    `;
+
+    // 绑定事件
+    bindConfigEvents();
+    // 检测本机局域网 IP（仅作为本地OCR地址填写的参考）
+    detectLocalIP();
+  });
+}
+
+// 通过 WebRTC ICE 候选获取本机局域网 IPv4
+// 注意：Chrome 默认开启 mDNS 混淆时拿不到真实 IP，会返回 .local 主机名，此时无法自动获取
+function detectLocalIP() {
+  const hint = document.getElementById('local-ip-hint');
+  if (!hint) return;
+
+  let done = false;
+  const ips = new Set();
+  let pc;
+  try {
+    pc = new RTCPeerConnection({ iceServers: [] });
+  } catch (e) {
+    hint.textContent = '当前浏览器不支持自动检测，请手动查看本机 IP';
+    hint.style.color = '#d93025';
+    return;
+  }
+  try { pc.createDataChannel(''); } catch (e) {}
+
+  const finish = () => {
+    if (done) return;
+    done = true;
+    try { pc.close(); } catch (e) {}
+    // 过滤回环和链路本地地址
+    const filtered = [...ips].filter(ip =>
+      ip !== '127.0.0.1' && !ip.startsWith('169.254.')
+    );
+    if (filtered.length) {
+      hint.innerHTML = '检测到：' + filtered.map(escapeHtml).join('、') +
+        '<br>参考地址：https://' + escapeHtml(filtered[0]) + ':9898/click';
+      hint.style.color = '#1a73e8';
+    } else {
+      hint.textContent = '未能自动获取（浏览器可能开启了 mDNS 混淆），请手动查看本机 IP';
+      hint.style.color = '#d93025';
+    }
+  };
+
+  pc.onicecandidate = (e) => {
+    if (!e.candidate) {
+      finish();
+      return;
+    }
+    const line = e.candidate.candidate || '';
+    const parts = line.split(/\s+/);
+    if (parts.length >= 5) {
+      const ip = parts[4];
+      if (/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(ip)) {
+        ips.add(ip);
+      }
+    }
+  };
+
+  pc.createOffer().then(o => pc.setLocalDescription(o)).catch(finish);
+  // 兜底超时，避免一直停在"正在检测..."
+  setTimeout(finish, 1000);
+}
+
+// 根据平台显隐相关区块：智谱模式下显示全部；
+// 火山/百炼模式下隐藏智谱配置区和自定义重定向规则，只显示该平台专属的配置区，
+// 但保留「变量注入」（显示的是该平台独立的变量集 huoshanVariables / bailianVariables）
+function applyPlatformVisibility(val) {
+  const isZhipu = val !== 'huoshan' && val !== 'bailian';
+  const zhipuConfig = document.getElementById('zhipu-config');
+  const huoshanConfig = document.getElementById('huoshan-config');
+  const bailianConfig = document.getElementById('bailian-config');
+  const customRulesSection = document.getElementById('custom-rules-section');
+  const variablesSection = document.getElementById('variables-section');
+
+  if (zhipuConfig) zhipuConfig.classList.toggle('hidden', !isZhipu);
+  if (huoshanConfig) huoshanConfig.classList.toggle('hidden', val !== 'huoshan');
+  if (bailianConfig) bailianConfig.classList.toggle('hidden', val !== 'bailian');
+  // 火山/百炼模式下隐藏智谱专属的「自定义重定向规则」
+  if (customRulesSection) customRulesSection.classList.toggle('hidden', !isZhipu);
+  // 变量注入区始终保留，切换平台时重新渲染对应平台的变量集
+  if (variablesSection) variablesSection.classList.remove('hidden');
+  renderVariables();
+}
+
+function bindConfigEvents() {
+  // 平台选择切换：智谱/火山配置区互斥显示
+  const platformRadios = document.querySelectorAll('input[name="platform"]');
+  if (platformRadios.length) {
+    platformRadios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        const val = document.querySelector('input[name="platform"]:checked')?.value;
+        applyPlatformVisibility(val);
+      });
+    });
+    // 初始渲染时同步一次显隐状态
+    const initVal = document.querySelector('input[name="platform"]:checked')?.value || 'zhipu';
+    applyPlatformVisibility(initVal);
+  }
+
+  // 自动验证开关切换时显示/隐藏平台配置
+  const autoVerifyCheckbox = document.getElementById('auto-verify');
+  const platformSection = document.getElementById('platform-section');
+  if (autoVerifyCheckbox && platformSection) {
+    autoVerifyCheckbox.addEventListener('change', () => {
+      if (autoVerifyCheckbox.checked) {
+        platformSection.classList.remove('hidden');
+      } else {
+        platformSection.classList.add('hidden');
+      }
+    });
+  }
+
+  // 平台选择切换
+  const platformSelect = document.getElementById('platform-select');
+  const yingConfig = document.getElementById('ying-config');
+  const bingkuoConfig = document.getElementById('bingkuo-config');
+  const localOcrConfig = document.getElementById('localocr-config');
+
+  if (platformSelect) {
+    platformSelect.addEventListener('change', () => {
+      if (platformSelect.value === '1') {
+        yingConfig.classList.add('active');
+        bingkuoConfig.classList.remove('active');
+        localOcrConfig.classList.remove('active');
+      } else if (platformSelect.value === '2') {
+        yingConfig.classList.remove('active');
+        bingkuoConfig.classList.add('active');
+        localOcrConfig.classList.remove('active');
+      } else if (platformSelect.value === '3') {
+        yingConfig.classList.remove('active');
+        bingkuoConfig.classList.remove('active');
+        localOcrConfig.classList.add('active');
+      }
+    });
+  }
+
+  // 保存按钮
+  document.getElementById('save-config').addEventListener('click', saveConfig);
+
+  // 添加自定义规则按钮
+  document.getElementById('add-rule-btn').addEventListener('click', () => {
+    const from = document.getElementById('new-rule-from').value.trim();
+    const to = document.getElementById('new-rule-to').value.trim();
+    addCustomRule(from, to);
+  });
+
+  // 支持回车添加规则
+  document.getElementById('new-rule-to').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      const from = document.getElementById('new-rule-from').value.trim();
+      const to = document.getElementById('new-rule-to').value.trim();
+      addCustomRule(from, to);
+    }
+  });
+}
+
+function saveConfig() {
+  chrome.storage.local.get(['variables', 'huoshanVariables', 'bailianVariables'], (data) => {
+    const vars = data.variables || {};
+    const huoshanVars = data.huoshanVariables || {};
+    const bailianVars = data.bailianVariables || {};
+
+    // 火山 3 字段（独立写入 huoshanVariables.MY_CONFIG，火山页面注入用）
+    const huoshanConfig = {
+      HuoshanStartTime: {
+        HOUR: parseInt(document.getElementById('huoshan-start-hour')?.value) || 0,
+        MINUTE: parseInt(document.getElementById('huoshan-start-minute')?.value) || 0,
+        SECOND: parseInt(document.getElementById('huoshan-start-second')?.value) || 0
+      },
+      HuoshanEndTime: {
+        HOUR: parseInt(document.getElementById('huoshan-end-hour')?.value) || 0,
+        MINUTE: parseInt(document.getElementById('huoshan-end-minute')?.value) || 0,
+        SECOND: parseInt(document.getElementById('huoshan-end-second')?.value) || 0
+      },
+      HuoshanSelector: document.getElementById('huoshan-selector')?.value || ''
+    };
+
+    // 百炼 3 字段（独立写入 bailianVariables.MY_CONFIG，百炼页面注入用）
+    const bailianConfig = {
+      BailianStartTime: {
+        HOUR: parseInt(document.getElementById('bailian-start-hour')?.value) || 0,
+        MINUTE: parseInt(document.getElementById('bailian-start-minute')?.value) || 0,
+        SECOND: parseInt(document.getElementById('bailian-start-second')?.value) || 0
+      },
+      BailianEndTime: {
+        HOUR: parseInt(document.getElementById('bailian-end-hour')?.value) || 0,
+        MINUTE: parseInt(document.getElementById('bailian-end-minute')?.value) || 0,
+        SECOND: parseInt(document.getElementById('bailian-end-second')?.value) || 0
+      },
+      BailianSelector: document.getElementById('bailian-selector')?.value || ''
+    };
+
+    const newConfig = {
+      StartTime: {
+        HOUR: parseInt(document.getElementById('start-hour').value) || 0,
+        MINUTE: parseInt(document.getElementById('start-minute').value) || 0,
+        SECOND: parseInt(document.getElementById('start-second').value) || 0
+      },
+      EndTime: {
+        HOUR: parseInt(document.getElementById('end-hour').value) || 0,
+        MINUTE: parseInt(document.getElementById('end-minute').value) || 0,
+        SECOND: parseInt(document.getElementById('end-second').value) || 0
+      },
+      IsCollectCodeLength: Math.min(10, Math.max(1, parseInt(document.getElementById('code-length').value) || 1)),
+      AutoVertifyRunning: document.getElementById('auto-verify').checked,
+      useQrCodeType: parseInt(document.getElementById('platform-select').value),
+      ClickIndex: parseInt(document.querySelector('input[name="plan"]:checked')?.value) || 1,
+      CancelDelay: document.getElementById('cancel-delay').checked,
+      qrCodeTimeOut: Number(document.getElementById('qr-timeout').value) || 0,
+      YING: {
+        USER: document.getElementById('ying-user').value,
+        PASS2: document.getElementById('ying-pass').value,
+        SOFTID: document.getElementById('ying-softid').value,
+        CODETYPE: document.getElementById('ying-codetype').value
+      },
+      BingKuo: {
+        USER: document.getElementById('bingkuo-user').value,
+        PASS2: document.getElementById('bingkuo-pass').value,
+        CODETYPE: document.getElementById('bingkuo-codetype').value
+      },
+      localOcr: document.getElementById('localocr-url').value,
+      Platform: document.querySelector('input[name="platform"]:checked')?.value || 'zhipu',
+      ...huoshanConfig,
+      ...bailianConfig
+    };
+
+    vars.MY_CONFIG = newConfig;
+    // 火山独立配置也写入 huoshanVariables.MY_CONFIG，供火山页面注入
+    huoshanVars.MY_CONFIG = huoshanConfig;
+    // 百炼独立配置也写入 bailianVariables.MY_CONFIG，供百炼页面注入
+    bailianVars.MY_CONFIG = bailianConfig;
+    chrome.storage.local.set({ variables: vars, huoshanVariables: huoshanVars, bailianVariables: bailianVars }, () => {
+      // 显示保存成功反馈
+      const btn = document.getElementById('save-config');
+      const originalText = btn.textContent;
+      btn.textContent = '✓ 已保存';
+      btn.style.background = '#34a853';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '#1a73e8';
+      }, 1500);
+      // 当前若处于火山/百炼模式，同步刷新变量注入栏
+      const currentPlatform = document.querySelector('input[name="platform"]:checked')?.value;
+      if (currentPlatform === 'huoshan' || currentPlatform === 'bailian') {
+        renderVariables();
+      }
+      // 通知 background.js 平台配置可能已变化（拉取/清空对应平台规则）
+      try { chrome.runtime.sendMessage({ type: 'platformChanged' }); } catch (e) {}
+    });
+  });
+}
+
+// 渲染自定义规则
+function renderCustomRules() {
+  chrome.storage.local.get('customRules', (data) => {
+    const container = document.getElementById('custom-rules');
+    const rules = data.customRules || [];
+
+    if (!rules.length) {
+      container.innerHTML = '<div class="empty">暂无自定义规则</div>';
+      return;
+    }
+
+    container.innerHTML = rules.map((rule, index) => `
+      <div class="var-row" data-index="${index}">
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <div style="flex: 1; font-family: monospace; font-size: 12px; word-break: break-all; color: #666;">
+            ${escapeHtml(rule.from)}
+          </div>
+          <div style="color: #999;">→</div>
+          <div style="flex: 1; font-family: monospace; font-size: 12px; word-break: break-all; color: #1a73e8;">
+            ${escapeHtml(rule.to)}
+          </div>
+          <button class="btn-del" data-index="${index}">删除</button>
+        </div>
+      </div>
+    `).join('');
+
+    // 绑定删除事件
+    container.querySelectorAll('.btn-del').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.index);
+        deleteCustomRule(index);
+      });
+    });
+  });
+}
+
+// 添加自定义规则
+function addCustomRule(from, to) {
+  if (!from || !to) {
+    alert('请填写完整的匹配规则和重定向地址');
+    return;
+  }
+
+  chrome.storage.local.get('customRules', (data) => {
+    const rules = data.customRules || [];
+    rules.push({ from, to, enabled: true });
+    chrome.storage.local.set({ customRules: rules }, () => {
+      // 清空输入框
+      document.getElementById('new-rule-from').value = '';
+      document.getElementById('new-rule-to').value = '';
+      renderCustomRules();
+      // 通知 background.js 重新应用规则
+      chrome.runtime.sendMessage('refreshRules');
+    });
+  });
+}
+
+// 删除自定义规则
+function deleteCustomRule(index) {
+  chrome.storage.local.get('customRules', (data) => {
+    const rules = data.customRules || [];
+    rules.splice(index, 1);
+    chrome.storage.local.set({ customRules: rules }, () => {
+      renderCustomRules();
+      // 通知 background.js 重新应用规则
+      chrome.runtime.sendMessage('refreshRules');
+    });
+  });
+}
+
+// 渲染变量注入区域（保留原有功能）
+// 智谱模式读写 storage 'variables'；火山模式读写 'huoshanVariables'；百炼模式读写 'bailianVariables'
+function getVarsStorageKey() {
+  const platform = document.querySelector('input[name="platform"]:checked')?.value;
+  if (platform === 'huoshan') return 'huoshanVariables';
+  if (platform === 'bailian') return 'bailianVariables';
+  return 'variables';
+}
+
+function renderVariables() {
+  const storageKey = getVarsStorageKey();
+  chrome.storage.local.get(storageKey, (data) => {
+    const container = document.getElementById('variables');
+    const vars = data[storageKey] || {};
+    const keys = Object.keys(vars);
+
+    if (!keys.length) {
+      container.innerHTML = '<div class="empty">暂无变量</div>';
+      return;
+    }
+
+    container.innerHTML = keys.map((key) => {
+      const isConfig = key === 'MY_CONFIG';
+      const val = vars[key];
+      let raw = '';
+      if (val === null || val === undefined) {
+        raw = '';
+      } else if (typeof val === 'string') {
+        raw = val;
+      } else {
+        raw = JSON.stringify(val, null, 2);
+      }
+
+      // MY_CONFIG 显示为只读预览
+      if (isConfig) {
+        return `
+        <div class="var-row" data-key="${escapeHtml(key)}" style="background: #e8f0fe; border-color: #1a73e8;">
+          <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+            <input type="text" class="var-key" value="${escapeHtml(key)}" readonly style="flex:1;background:#e8f0fe;color:#1a73e8;font-weight:600;border:none;" />
+          </div>
+          <pre class="var-val-readonly" style="width:100%;padding:10px;font-family:'SF Mono',Consolas,monospace;font-size:11px;overflow:auto;background:#fff;border:1px solid #d0d0d0;border-radius:4px;max-height:200px;">${escapeHtml(raw)}</pre>
+        </div>
+        `;
+      }
+
+      return `
+      <div class="var-row" data-key="${escapeHtml(key)}">
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+          <input type="text" class="var-key" value="${escapeHtml(key)}" placeholder="变量名" style="flex:1" />
+          <button class="btn-del">删除</button>
+        </div>
+        <textarea class="var-val" placeholder='字符串直接写，对象用 JSON 格式：{"a":1}' rows="${Math.max(2, (raw.match(/\n/g)||[]).length + 1)}">${escapeHtml(raw)}</textarea>
+      </div>
+    `}).join('');
+
+    container.querySelectorAll('.var-row').forEach((row) => {
+      const origKey = row.dataset.key;
+
+      // MY_CONFIG 是只读的，跳过事件绑定
+      if (origKey === 'MY_CONFIG') return;
+
+      row.querySelector('.var-key').addEventListener('change', (e) => {
+        const k = getVarsStorageKey();
+        chrome.storage.local.get(k, (data) => {
+          const vars = data[k] || {};
+          const newKey = e.target.value.trim();
+          if (newKey && newKey !== origKey) {
+            vars[newKey] = vars[origKey];
+            delete vars[origKey];
+            chrome.storage.local.set({ [k]: vars }, renderVariables);
+          }
+        });
+      });
+
+      row.querySelector('.var-val')?.addEventListener('input', (e) => {
+        const k = getVarsStorageKey();
+        chrome.storage.local.get(k, (data) => {
+          const vars = data[k] || {};
+          const currentKey = row.querySelector('.var-key').value.trim();
+          if (currentKey) {
+            vars[currentKey] = e.target.value;
+            if (origKey !== currentKey) delete vars[origKey];
+            chrome.storage.local.set({ [k]: vars });
+          }
+        });
+      });
+
+      row.querySelector('.btn-del')?.addEventListener('click', () => {
+        const k = getVarsStorageKey();
+        chrome.storage.local.get(k, (data) => {
+          const vars = data[k] || {};
+          delete vars[origKey];
+          chrome.storage.local.set({ [k]: vars }, renderVariables);
+        });
+      });
+    });
+  });
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
